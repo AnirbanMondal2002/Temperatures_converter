@@ -1,0 +1,49 @@
+body, h1, h2, p, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .converter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .converter > div {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .converter h2 {
+    margin-bottom: 10px;
+  }
+  
+  .converter input {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .converter button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .converter p {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
